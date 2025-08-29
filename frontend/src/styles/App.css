@@ -1,0 +1,119 @@
+.App {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.folder-structure {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-root-folder {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.add-root-folder input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.add-root-folder button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-root-folder button:hover {
+  background: #0056b3;
+}
+
+.folders-container {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.folder-item {
+  margin-bottom: 5px;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.toggle-btn {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 20px;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 14px;
+}
+
+.folder-name {
+  flex-grow: 1;
+}
+
+.action-btn {
+  margin-left: 5px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.action-btn.delete {
+  color: #ff0000;
+}
+
+.action-btn:hover {
+  background: #f0f0f0;
+}
+
+.add-folder-form {
+  display: flex;
+  margin: 5px 0 10px 20px;
+  gap: 5px;
+}
+
+.add-folder-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  flex-grow: 1;
+}
+
+.add-folder-form button {
+  padding: 5px 10px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-folder-form button:hover {
+  background: #e0e0e0;
+}
+
+.children-container {
+  margin-left: 20px;
+}
